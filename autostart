@@ -20,6 +20,7 @@ berryc draw_text   "true"
 berryc set_font    "Dina-10"
 berryc move_mask   "mod4"
 berryc resize_mask "mod1"
+berryc edge_lock   "false"
 
 #start hotkey daemon
 killall -q sxhkd
